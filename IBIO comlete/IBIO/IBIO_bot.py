@@ -35,7 +35,7 @@ async def IBIO_help(ctx):
     location = (os.getcwd()[0:-5]) + r'\сайт\url\now_url.txt'
     file = open(location, mode='rt')
     url = file.read()
-    await ctx.message.channel.send('```IBIO комманды:\n'
+    await ctx.message.channel.send('```IBIO команды:\n'
                                    'ready - вкл/выкл бот\n'
                                    'clarify "исчесление времени" - говорит время\n'
                                    'play "ссылка на видео с ютуба" - проигрывает музыку\n'
